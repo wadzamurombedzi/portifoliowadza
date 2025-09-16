@@ -1,14 +1,14 @@
 
-let menuIcon = document.querySelector(#menu-icon);
+let nemuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x');
+    menuIcon.classList.toggle('fa-xmark');
     navbar.classList.toggle('active');
 };
 
 let sections = document.querySelectorAll('section');
-let navlinks = document.querySelectorAll('header nav a');
+let navLinks = document.querySelectorAll('header nav a');
 
 window.onscroll = () => {
     sections.forEach(sec => {
